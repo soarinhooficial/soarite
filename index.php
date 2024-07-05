@@ -2,21 +2,21 @@
 <html lang="pt-br">
 
 <head>
-    <?php include './components/head.php'; ?>
+    <?php include './elements/head.php'; ?>
 </head>
 
 <body>
 
     <header>
-        <?php include './components/header.php'; ?>
+        <?php include './elements/header.php'; ?>
     </header>
 
-    <main class="d-flex flex-column min-vh-100">
+    <main class="d-flex pt-5 flex-column min-vh-100">
         <?php include './pages/home.php'; ?>
     </main>
 
     <footer>
-        <?php include './components/footer.php'; ?>
+        <?php include './elements/footer.php'; ?>
     </footer>
 
 </body>
