@@ -20,9 +20,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Portfolio</a>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Social</a>
                 </li>
             </ul>
         </div>
