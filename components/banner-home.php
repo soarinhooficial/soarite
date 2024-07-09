@@ -1,1 +1,0 @@
-<img class="col-12" src="./assets/img/home-banner.svg" alt="">

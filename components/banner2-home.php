@@ -1,0 +1,1 @@
+<img class="col-12" src="../assets/img/banner-soarinho.svg" alt="">
