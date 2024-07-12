@@ -1,25 +1,22 @@
-<section id="hero-section ">
-    <!-- Background image -->
-    <div class="text-center min-vh-100 bg-image" style="
-     background-image: url('./assets/img/hero.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 400px;
-    ">
-
-        <div class="d-flex justify-content-center align-items-center min-vh-100" style="background-color: rgba(0, 0, 0, 0.6);">
-            <div class="d-flex justify-content-center align-items-center h-50">
-                <div class="text-white">
-                    <h1 class="mb-3">Um Artista Tecnológico</h1>
-                    <h4 class="mb-3">Soluções em Audiovisual & Informática</h4>
-                    <a data-mdb-ripple-init class="btn btn-outline-light btn-lg" href="https://soarinho.com/social" role="button">Conecte-se agora</a>
-                </div>
-            </div>
+<section id="hero-section" class="position-relative overflow-hidden min-vh-100">
+    <!-- Background video -->
+    <video autoplay muted loop class="position-absolute w-100 h-100" style="object-fit: cover;">
+        <source src="<?php echo PATH; ?>assets/video/hero.mp4" type="video/mp4">
+        Seu navegador não suporta o vídeo.
+    </video>
+    <div class="position-absolute w-100 h-100" style="background-color: rgba(0, 0, 0, 0.4);"></div>
+    <!-- <div class="container h-100 d-flex justify-content-center align-items-center position-relative">
+        <div class="text-white text-center">
+            <h1 class="mb-3">Título de Exemplo</h1>
+            <h4 class="mb-3">Exemplo de Slogan</h4>
+            <a data-mdb-ripple-init class="btn btn-outline-light btn-lg" href="https://soarinho.com/social" role="button">Conecte-se agora</a>
         </div>
-    </div>
+    </div> -->
 </section>
 
+
 <section id="skills" class="py-5 ">
+
 
     <div class="container">
 
@@ -27,15 +24,15 @@
 
             <h1 class="my-4">Habilidades</h1>
 
-            <div class="col"><img src="./assets/icon/canto.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/locucao.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/cello.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/producao.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/edicao.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/design.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/suporte.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/frontend.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/analise.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/cello.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/canto.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/locucao.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/producao.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/edicao.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/design.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/suporte.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/frontend.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/analise.svg" class="img-fluid" alt="..."></div>
 
         </div>
         <hr>
@@ -43,21 +40,25 @@
 
             <h1 class="my-4 text-end">Tecnologias</h1>
 
-            <div class="col"> <img src="./assets/icon/html.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/css.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/bootstrap.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/js.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/php.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/mysql.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/git.svg" class="img-fluid" alt="..."></div>
-            <div class="col"><img src="./assets/icon/github.svg" class="img-fluid" alt="..."></div>
-            <!-- <div class="col"><img src="./assets/icon/redes.svg" class="img-fluid" alt="..."></div> -->
+            <div class="col"> <img src="<?php echo PATH; ?>assets/icon/html.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/css.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/bootstrap.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/js.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/php.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/mysql.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/git.svg" class="img-fluid" alt="..."></div>
+            <div class="col"><img src="<?php echo PATH; ?>assets/icon/github.svg" class="img-fluid" alt="..."></div>
+            <!-- <div class="col"><img src="<?php echo PATH; ?>assets/icon/redes.svg" class="img-fluid" alt="..."></div> -->
 
         </div>
 
     </div>
 
 </section>
+
+<?php
+include ROOT_PATH . 'components/banner2-home.php';
+?>
 
 <section class="bg-black">
     <div class="container-full">
@@ -104,14 +105,14 @@
             </div>
             <div class="col-6 text-white">
 
-                <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo perspiciatis iusto sequi doloribus velit recusandae in, repudiandae nesciunt maxime iure omnis laborum perferendis commodi molestias! Ipsam sed vitae officiis excepturi.</p>
+                <p class="fs-5">Mergulhe no mundo da criatividade com minhas soluções artísticas. Da música ao vivo à produção audiovisual, transformo ideias em experiências impactantes.</p>
 
             </div>
         </div>
         <div class="row py-5 text-white justify-content-center align-items-center g-2">
             <div class="col-6 text-white">
 
-                <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo perspiciatis iusto sequi doloribus velit recusandae in, repudiandae nesciunt maxime iure omnis laborum perferendis commodi molestias! Ipsam sed vitae officiis excepturi.</p>
+                <p class="fs-5">Exploro a fronteira da inovação tecnológica para fornecer soluções de ponta. De desenvolvimento web à manutenção de computadores, garanto eficiência e qualidade em cada projeto.</p>
 
             </div>
             <div class="col-4 m-2">
@@ -158,7 +159,10 @@
     </div>
 </section>
 
-<?php include '../components/banner1-home.php'; ?>
+
+<?php
+include ROOT_PATH . 'components/banner1-home.php';
+?>
 
 <section id="">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corporis, libero placeat asperiores labore minima officia error architecto non optio commodi ullam ipsum praesentium, fuga mollitia maiores autem, eaque reprehenderit!</p>

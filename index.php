@@ -1,9 +1,6 @@
-// config.php
 <?php
-define('ROOT_PATH', realpath(dirname(__FILE__)) . '/');
-define('PATH', '/soarite/');
+include 'globals.php';
 ?>
-
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -11,12 +8,14 @@ define('PATH', '/soarite/');
 <head>
     <?php include 'elements/head.php'; ?>
 </head>
-
+''
 <body>
     <header>
+
         <?php include 'elements/header.php'; ?>
     </header>
-    <main id="contentPage" class="d-flex pt-5 flex-column min-vh-100">
+    <main id="contentPage" class="d-flex flex-column min-vh-100">
+
         <?php
         // Obtém o valor do parâmetro url da query string
         $uri = isset($_GET['url']) ? $_GET['url'] : 'inicio';
@@ -39,6 +38,7 @@ define('PATH', '/soarite/');
             include 'pages/error404.php';
         }
         ?>
+
     </main>
     <footer>
         <?php include 'elements/footer.php'; ?>

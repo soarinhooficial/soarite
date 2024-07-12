@@ -1,1 +1,1 @@
-<img class="col-12" src="../assets/img/banner-soarinho.svg" alt="">
+<img class="col-12" src="<?php echo PATH; ?>assets/img/banner-soarinho.svg" alt="">

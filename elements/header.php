@@ -20,9 +20,6 @@
                     <a class="nav-link" href="orcamento">Orçamento</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="shows">Shows</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
