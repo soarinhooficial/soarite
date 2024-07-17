@@ -25,17 +25,19 @@ include 'globals.php';
             'inicio' => 'pages/home-content.php',
             'servicos' => 'pages/services-content.php',
             'portfolio' => 'pages/portfolio-content.php',
+            'curriculo' => 'pages/curriculum-content.php',
+            'artes' => 'pages/arts-content.php',
             'orcamento' => 'pages/budget-content.php',
-            'shows' => 'pages/shows-content.php',
             'sobre' => 'pages/about-content.php',
-            'social' => 'pages/social-content.php'
+            'social' => 'pages/social-content.php',
+            'contato' => 'pages/contact-content.php'
         ];
 
         // Verificando se a página solicitada existe no array
         if (array_key_exists($uri, $pages)) {
             include $pages[$uri];
         } else {
-            include 'pages/error404.php';
+            include 'pages/erro404.php';
         }
         ?>
 
