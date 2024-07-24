@@ -39,7 +39,6 @@ include_once 'globals.php';
             'contato' => __DIR__ . DS . '/pages/contato.php',
         ];
 
-        // Incluir a página correta ou a página de erro 404
         if (array_key_exists($uri, $pages)) {
             include $pages[$uri];
         } else {
