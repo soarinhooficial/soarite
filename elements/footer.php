@@ -27,8 +27,8 @@
                     <li><a href="https://observa.angra.rj.gov.br/" target="_blank">Observa Angra</a></li>
                 </ul>
             </div>
-            <div class=" col-sm-3 col-md-3 col-12 col text-center">
-                <img src="assets/img/logo-pmar.svg" class="brasao-footer" alt="Brasão da Prefeitura de Angra dos Reis">
+            <div class="col-sm-3 col-md-3 col-12 col text-center">
+                <img src="/assets/img/logo-pmar.svg" class="brasao-footer" alt="Brasão da Prefeitura de Angra dos Reis">
             </div>
         </div>
     </div>

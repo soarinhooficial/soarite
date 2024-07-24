@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/assets/styles.css">
+
 <meta charset="utf-8">
 <title>Governo Digital - Prefeitura Muncipal de Angra dos Reis</title>
 <meta name="description" content="SEI - Sistema Eletrônico de Informações de Angra dos Reis">
@@ -18,8 +20,7 @@
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
 
-<!-- Core theme CSS (includes Bootstrap)-->
-<link href="css/styles.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 <!-- para o compartilhar -->
 <meta property="og:title" content="SEI - Angra dos Reis" />
