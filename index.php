@@ -10,7 +10,7 @@ include_once __DIR__ . '/globals.php';
     <?php include __DIR__ . '/elements/head.php'; ?>
 </head>
 
-<body>
+<body id="page-top">
     <header>
         <?php include __DIR__ . '/elements/header.php'; ?>
     </header>
@@ -23,17 +23,13 @@ include_once __DIR__ . '/globals.php';
         // Definindo um array com os caminhos dos arquivos de conteúdo
         $pages = [
             'inicio' => __DIR__ . '/pages/home.php',
-            'servicos' => __DIR__ . '/pages/services.php',
-            'portfolio' => __DIR__ . '/pages/portfolio.php',
-            'curriculo' => __DIR__ . '/pages/curriculum.php',
-            'artes' => __DIR__ . '/pages/arts.php',
-            'blog' => __DIR__ . '/pages/blog.php',
-            'orcamento' => __DIR__ . '/pages/budget.php',
-            'sobre' => __DIR__ . '/pages/about.php',
-            'social' => __DIR__ . '/pages/social.php',
-            'contato' => __DIR__ . '/pages/contact.php',
-            'login' => __DIR__ . '/pages/login.php',
-            'dashboard' => __DIR__ . '/pages/dashboard.php'
+            'egd' => __DIR__ . '/pages/egd.php',
+            'ceti' => __DIR__ . '/pages/ceti.php',
+            'servicos-digitais' => __DIR__ . '/pages/servicos-digitais.php',
+            'processo-eletronico' => __DIR__ . '/pages/processo-eletronico.php',
+            'forum-de-transformacao-digital' => __DIR__ . '/pages/forum-de-transformacao-digital.php',
+            'boletim' => __DIR__ . '/pages/boletim.php',
+            'contato' => __DIR__ . '/pages/contato.php',
         ];
 
         // Verificando se a página solicitada existe no array
