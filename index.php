@@ -33,7 +33,7 @@ include_once __DIR__ . '/globals.php';
             'sobre' => __DIR__ . '/pages/about.php',
             'social' => __DIR__ . '/pages/social.php',
             'contato' => __DIR__ . '/pages/contact.php',
-            'ler' => __DIR__ . '/pages/read.php',
+            'menu' => __DIR__ . '/pages/menu.php',
             'adicionar' => __DIR__ . '/pages/create.php',
             'editar' => __DIR__ . '/pages/edit.php',
             'deletar' => __DIR__ . '/pages/delete.php',
